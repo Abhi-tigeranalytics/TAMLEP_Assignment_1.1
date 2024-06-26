@@ -1,0 +1,2290 @@
+Script started on 2024-06-26 11:05:53+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h(base) abhishek@abhisphere:~$ git config --list --so[Khow-origin
+[?2004l[?1h=file:/etc/gitconfig     filter.lfs.clean=git-lfs clean -- %f[m
+file:/etc/gitconfig     filter.lfs.smudge=git-lfs smudge -- %f[m
+file:/etc/gitconfig     filter.lfs.process=git-lfs filter-process[m
+file:/etc/gitconfig     filter.lfs.required=true[m
+file:/home/abhishek/.gitconfig  user.name=Abhishek Ranjan[m
+file:/home/abhishek/.gitconfig  user.email=ranjan29abhi@gmail.com[m
+file:/home/abhishek/.gitconfig  init.defaultbranch=main[m
+[K[?1l>[?2004h(base) abhishek@abhisphere:~$ gti[K[Kit config --gloab[K[Kbal user.email abhishek.ranjan@tig eranalytics.com
+[?2004l[?2004h(base) abhishek@abhisphere:~$ git confii[Kg --list
+[?2004l[?1h=filter.lfs.clean=git-lfs clean -- %f[m
+filter.lfs.smudge=git-lfs smudge -- %f[m
+filter.lfs.process=git-lfs filter-process[m
+filter.lfs.required=true[m
+user.name=Abhishek Ranjan[m
+user.email=abhishek.ranjan@tigeranalytics.com[m
+init.defaultbranch=main[m
+[K[?1l>[?2004h(base) abhishek@abhisphere:~$ cd Tit[Kger\ Analytics/Downloads/T
+Takeaway Assignment - R _ Python/ TAMLEP/
+(base) abhishek@abhisphere:~$ cd Tiger\ Analytics/Downloads/TAMLEP/
+[?2004l[?2004h(base) abhishek@abhisphere:~/Tiger Analytics/Downloads/TAMLEP$ CD M[K[K[K[Kcd mk[K[K[K Module\ 1/
+[?2004l[?2004h(base) abhishek@abhisphere:~/Tiger Analytics/Downloads/TAMLEP/Module 1$ ls
+[?2004lshell-lesson-data
+[?2004h(base) abhishek@abhisphere:~/Tiger Analytics/Downloads/TAMLEP/Module 1$ mkdir my _project
+[?2004l[?2004h(base) abhishek@abhisphere:~/Tiger Analytics/Downloads/TAMLEP/Module 1$ cd my_project/
+[?2004l[?2004h(base) abhishek@abhisphere:~/Tiger Analytics/Downloads/TAMLEP/Module 1/my_project$ export p[KPS[K[KPS1="\n[Ku"
+[?2004l[?2004habhishekexport PS1="\u">" >"
+[?2004l[?2004habhishek >export PS1="\u >" "
+[?2004l[?2004habhishek > export PS1="\u > "[1P "[1P"> "
+[?2004l[?2004habhishek> pwd
+[?2004l/home/abhishek/Tiger Analytics/Downloads/TAMLEP/Module 1/my_project
+[?2004habhishek> git init
+[?2004lInitialized empty Git repository in /home/abhishek/Tiger Analytics/Downloads/TAMLEP/Module 1/my_project/.git/
+[?2004habhishek> git status
+[?2004lOn branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+[?2004habhishek> echo 'My Po[Kroject"[K;[K' > README
+[?2004l[?2004habhishek> LS[K[Kls
+[?2004lREADME
+[?2004habhishek> cat README
+[?2004lMy Project
+[?2004habhishek> git status
+[?2004lOn branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004habhishek> git add r[KREADME 
+[?2004l[?2004habhishek> git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+[?2004habhishek> [Kabhishek> [Kabhishek> [Kabhishek> [Kabhishek> [Kabhishek> [Kabhishek> [Kabhishek> [Kabhishek> [Kabhishek> [Kabhishek> [Kabhishek> [Kabhishek> echo 'testing tracking before staging' >> README 
+[?2004l[?2004habhishek> cat README 
+[?2004lMy Project
+testing tracking before staging
+[?2004habhishek> git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   README[m
+
+[?2004habhishek> tocu[K[Kuch CONTRIBUTING,[K.md
+[?2004l[?2004habhishek> ad[K[Kgit add CONTRIBUTING.md 
+[?2004l[?2004habhishek> ECHO[K[K[K[Keh[Kcho "testing [K -?[K> not tr[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   README[m
+
+[?2004habhishek> git add README
+[?2004l[?2004habhishek> git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+[?2004habhishek> echo 'modify[K[K[K[K[K[Ktest" m[K[K[K: modifi[Kying co[K[Kthe file after tracking but before  staging'>CONTRIBUTING.md 
+[?2004l[?2004habhishek> git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+[?2004habhishek> git add CONTRIBUTING.md 
+[?2004l[?2004habhishek> GIT S[K[K[K[K[Kgit stu[Katus
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+[?2004habhishek> gti[K[Kit status -s
+[?2004l[32mA[m  CONTRIBUTING.md
+[32mA[m  README
+[?2004habhishek> git add *.c
+[?2004lfatal: pathspec '*.c' did not match any files
+[?2004habhishek> cat .gitignore
+[?2004lcat: .gitignore: No such file or directory
+[?2004habhishek> nano .gitignore
+[?2004l[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;28H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                .gitignore                          [1;65H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[1;42H(B[0;7m*[65G(B[m[?12l[?25h[2d*[?25l[?12l[?25h.[?25l[?12l[?25h[[?25l[?12l[?25ho[?25l[?12l[?25ha[?25l[?12l[?25h][?25l[3d[?12l[?25h[?25l[?12l[?25h*[?25l[?12l[?25h[K[?25l[23;14H   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[K[22d(B[0;7mFile Name to Write: .gitignore                                    [22;31H(B[m[?12l[?25h[?25l[26G[1K (B[0;7m[ Writing... ](B[m[K[1;42H(B[0;7m [65G(B[m[22;25H(B[0;7m[ Wrote 2 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute[K[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[?12l[?25h[3d[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[?2004habhishek> cat .gitignore 
+[?2004l*.[oa]
+
+[?2004habhishek> cou[K[K[Kecho "further editing the file without staging to see wh at [K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Ktest g it diff" >> CONTRIBUTING.md 
+[?2004l[?2004habhishek> git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+
+[?2004habhishek> git diff
+[?2004l[?1h=[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mindex 7af93f3..692f350 100644[m[m
+[1m--- a/CONTRIBUTING.md[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -1 +1,2 @@[m[m
+ test: modifying the file after tracking but before staging[m[m
+[32m+[m[32mfurther editing the file without staging to test git diff[m[m
+[K[?1l>[?2004habhishek> git add .gitignore 
+[?2004l[?2004habhishek> git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+[?2004habhishek> git i[Kdiff
+[?2004l[?1h=[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mindex 7af93f3..692f350 100644[m[m
+[1m--- a/CONTRIBUTING.md[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -1 +1,2 @@[m[m
+ test: modifying the file after tracking but before staging[m[m
+[32m+[m[32mfurther editing the file without staging to test git diff[m[m
+[K[?1l>[?2004habhishek> git diff --staged
+[?2004l[?1h=[1mdiff --git a/.gitignore b/.gitignore[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..d3bf727[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/.gitignore[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32m*.[oa][m[m
+[32m+[m[m
+[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..7af93f3[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mtest: modifying the file after tracking but before staging[m[m
+[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..c12629d[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32mMy Project[m[m
+[32m+[m[32mtesting tracking before staging[m[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?2004habhishek> git diff --cha[K[Kached
+[?2004l[?1h=[1mdiff --git a/.gitignore b/.gitignore[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..d3bf727[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/.gitignore[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32m*.[oa][m[m
+[32m+[m[m
+[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..7af93f3[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mtest: modifying the file after tracking but before staging[m[m
+[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..c12629d[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32mMy Project[m[m
+[32m+[m[32mtesting tracking before staging[m[m
+:[K[K[K[7m(END)[27m[K[K[?1l>[?2004habhishek> git oc[K[Kcommit
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;27H(B[0;7m[ Reading... ](B[m[22;25H(B[0;7m[ Read 16 lines ](B[m[H(B[0;7m...ownloads/TAMLEP/Module 1/my_project/.git/COMMIT_EDITMSG        [1;66H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[3d[36m# Please enter the commit message for your changes. Lines starting[4;1H# with '#' will be ignored, and an empty message aborts the commi[39m(B[0;7m>[5;1H(B[0m[36m#[6d# On branch main[7d#[8d# Initial commit[9d#[10d# Changes to be committed:[11d#[38;5;208m       [36mnew file:   .gitignore[12d#[38;5;208m       [36mnew file:   CONTRIBUTING.md[13d#[38;5;208m       [36mnew file:   README[14d#[15d# Changes not staged for commit:[16d#[38;5;208m       [36mmodified:   CONTRIBUTING.md[17d#[2d[39m(B[m[?12l[?25h[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[KAborting commit due to empty commit message.
+[?2004habhishek> git add .
+[?2004l[?2004habhishek> git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+[?2004habhishek> git commit
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;27H(B[0;7m[ Reading... ](B[m[22;25H(B[0;7m[ Read 13 lines ](B[m[H(B[0;7m...ownloads/TAMLEP/Module 1/my_project/.git/COMMIT_EDITMSG        [1;66H(B[m[23d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[3d[36m# Please enter the commit message for your changes. Lines starting[4;1H# with '#' will be ignored, and an empty message aborts the commi[39m(B[0;7m>[5;1H(B[0m[36m#[6d# On branch main[7d#[8d# Initial commit[9d#[10d# Changes to be committed:[11d#[38;5;208m       [36mnew file:   .gitignore[12d#[38;5;208m       [36mnew file:   CONTRIBUTING.md[13d#[38;5;208m       [36mnew file:   README[14d#[2d[39m(B[m[?12l[?25h[?25l[1;60H(B[0;7m*[66G(B[m[?12l[?25h[2di[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l[?12l[?25hi[?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25hc[?25l[?12l[?25ho[?25l[?12l[?25hm[?25l[?12l[?25hm[?25l[?12l[?25hi[?25l[?12l[?25ht[?25l7[3;21r8[3dM[1;24r[3;1H[?12l[?25h[?25l[3;21r[21;1H
+[1;24r[2;15H[?12l[?25h[?25l[23;14H   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[K[22d(B[0;7mFile Name to Write:<LEP/Module 1/my_project/.git/COMMIT_EDITMSG   [22;64H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[22;26H[1K (B[0;7m[ Cancelled ](B[m[K[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute[K[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[?12l[?25h[2;15H[?25l[23;14H(B[0;7mM-F(B[m New Buffe(B[0;7m^S(B[m Spell Chec(B[0;7m^J(B[m Full Justi(B[0;7m^V(B[m Cut Till En[24;2H(B[0;7mC(B[m Cancel    (B[0;7mM-\(B[m Pipe Text(B[0;7m^Y(B[m Linter    (B[0;7m^O(B[m Formatter (B[0;7m^Z(B[m Suspend[22d(B[0;7mCommand to execute:                                               [22;21H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[26G[1K (B[0;7m[ Cancelled ](B[m[K[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute[K[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[?12l[?25h[2;15H[?25l[23;14H   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[K[22d(B[0;7mFile Name to Write:<LEP/Module 1/my_project/.git/COMMIT_EDITMSG   [22;64H(B[m[?12l[?25h[?25l[22;26H[1K (B[0;7m[ Cancelled ](B[m[K[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute[K[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[?12l[?25h[2;15H[?25l[23;14H   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[K[22d(B[0;7mFile Name to Write:<LEP/Module 1/my_project/.git/COMMIT_EDITMSG   [22;64H(B[m[?12l[?25h[?25l[22;26H[1K (B[0;7m[ Writing... ](B[m[K[1;60H(B[0;7m [66G(B[m[22;25H(B[0;7m[ Wrote 13 lines ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute[K[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify[?12l[?25h[2;15H[?25l[22d[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?2004l[K[main (root-commit) 1d5a104] initial commit
+ 3 files changed, 6 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 CONTRIBUTING.md
+ create mode 100644 README
+[?2004habhishek> [7m$ git clone https://github.com/schacon/simplegit-progit[27m
+[A[C[C[C[C[C[C[C[C[C[C$ git clone https://github.com/schacon/simplegit-progit[1P[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lCloning into 'simplegit-progit'...
+remote: Enumerating objects: 13, done.[K
+remote: Total 13 (delta 0), reused 0 (delta 0), pack-reused 13[K
+Receiving objects:   7% (1/13)Receiving objects:  15% (2/13)Receiving objects:  23% (3/13)Receiving objects:  30% (4/13)Receiving objects:  38% (5/13)Receiving objects:  46% (6/13)Receiving objects:  53% (7/13)Receiving objects:  61% (8/13)Receiving objects:  69% (9/13)Receiving objects:  76% (10/13)Receiving objects:  84% (11/13)Receiving objects:  92% (12/13)Receiving objects: 100% (13/13)Receiving objects: 100% (13/13), done.
+Resolving deltas:   0% (0/3)Resolving deltas:  33% (1/3)Resolving deltas:  66% (2/3)Resolving deltas: 100% (3/3)Resolving deltas: 100% (3/3), done.
+[?2004habhishek> git log
+[?2004l[?1h=[33mcommit 1d5a104109bf6b604ba47c000e908cb1d811ac69[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Abhishek Ranjan <abhishek.ranjan@tigeranalytics.com>[m
+Date:   Wed Jun 26 18:42:34 2024 +0530[m
+[m
+    initial commit[m
+[K[?1l>[?2004habhishek> [Kabhishek> ls
+[?2004lCONTRIBUTING.md  README  simplegit-progit
+[?2004habhishek> cd simplegit-progit/
+[?2004l[?2004habhishek> git log
+[?2004l[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD [m [33m[m[33m[m[1;36m-> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -[m [33m[m[33m[m[1;36m> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32m[m [33m[m[33m[m[1;36m[m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mm[m [33m[m[33m[m[1;36m[m[1;32master[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmas[m [33m[m[33m[m[1;36m[m[1;32mter[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmast[m [33m[m[33m[m[1;36m[m[1;32mer[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaste[m [33m[m[33m[m[1;36m[m[1;32mr[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m,[m [33m[m[33m[m[1;36m[m[1;32m[m[33m [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mor[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31migin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morig[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31min/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/mast[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mer[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mo[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mrigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mor[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31migin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mori[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mgin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morig[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31min/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mori[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mgin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mor[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31migin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mo[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mrigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m,[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/maste[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mr[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/mast[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mer[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/mas[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mter[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/ma[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mster[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mmaster[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigi[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mn/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morig[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31min/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mori[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mgin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mor[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31migin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mo[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mrigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m,[m [33m[m[33m[m[1;36m[m[1;32m[m[33m [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaste[m [33m[m[33m[m[1;36m[m[1;32mr[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmast[m [33m[m[33m[m[1;36m[m[1;32mer[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmas[m [33m[m[33m[m[1;36m[m[1;32mter[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mma[m [33m[m[33m[m[1;36m[m[1;32mster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mm[m [33m[m[33m[m[1;36m[m[1;32master[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32m[m [33m[m[33m[m[1;36m[m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD ->[m [33m[m[33m[m[1;36m [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -[m [33m[m[33m[m[1;36m> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD [m [33m[m[33m[m[1;36m-> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEA[m [33m[m[33m[m[1;36mD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHE[m [33m[m[33m[m[1;36mAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEA[m [33m[m[33m[m[1;36mD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD[m [33m[m[33m[m[1;36m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD [m [33m[m[33m[m[1;36m-> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32m[m [33m[m[33m[m[1;36m[m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mm[m [33m[m[33m[m[1;36m[m[1;32master[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmas[m [33m[m[33m[m[1;36m[m[1;32mter[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaste[m [33m[m[33m[m[1;36m[m[1;32mr[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m,[m [33m[m[33m[m[1;36m[m[1;32m[m[33m [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mo[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mrigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mor[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31migin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mori[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mgin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morig[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31min/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigi[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mn/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mmaster[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/ma[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mster[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/mas[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mter[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/mast[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mer[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/maste[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31mr[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m,[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mo[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mrigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mor[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31migin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mori[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mgin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morig[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31min/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigi[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mn/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31m/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mHEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/H[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HE[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEA[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31mD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31m[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+:[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[1m~[0m
+[7m(END)[27m[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[1m~[0m
+[7m(END)[27m[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[1m~[0m
+[7m(END)[27m[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[1m~[0m
+[7m(END)[27m[K[H[2J[H[H[2J[H[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[1m~[0m
+[7m(END)[27m[K[K[?1l>[?2004habhishek> git log
+[?2004l[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[K[?1l>[?2004habhishek> git log -p -2
+[?2004l[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[1mdiff --git a/Rakefile b/Rakefile[m[m
+[1mindex a874b73..8f94139 100644[m[m
+[1m--- a/Rakefile[m[m
+[1m+++ b/Rakefile[m[m
+[36m@@ -5,7 +5,7 @@[m [mrequire 'rake/gempackagetask'[m[m
+ spec = Gem::Specification.new do |s|[m[m
+     s.platform  =   Gem::Platform::RUBY[m[m
+     s.name      =   "simplegit"[m[m
+[31m-    s.version   =   "0.1.0"[m[m
+[32m+[m[32m    s.version   =   "0.1.1"[m[m
+     s.author    =   "Scott Chacon"[m[m
+     s.email     =   "schacon@gmail.com"[m[m
+:[K[K     s.summary   =   "A simple gem for using Git in Ruby code."[m[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[1mdiff --git a/lib/simplegit.rb b/lib/simplegit.rb[m[m
+[1mindex a0a60ae..47c6340 100644[m[m
+[1m--- a/lib/simplegit.rb[m[m
+[1m+++ b/lib/simplegit.rb[m[m
+[36m@@ -18,8 +18,3 @@[m [mclass SimpleGit[m[m
+     end[m[m
+   [m[m
+ end[m[m
+[31m-[m[m
+[31m-if $0 == __FILE__[m[m
+:[K[K[31m-  git = SimpleGit.new[m[m
+[31m-  puts git.show[m[m
+[31m-end[m[m
+\ No newline at end of file[m[m
+[7m(END)[27m[K[K[?1l>[?2004habhishek> git long[K[Kg --stt[Kat
+[?2004l[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+ Rakefile | 2 [32m+[m[31m-[m[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+ lib/simplegit.rb | 5 [31m-----[m[m
+ 1 file changed, 5 deletions(-)[m
+[m
+:[K[K[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[m
+ README           |  6 [32m++++++[m[m
+ Rakefile         | 23 [32m+++++++++++++++++++++++[m[m
+ lib/simplegit.rb | 25 [32m+++++++++++++++++++++++++[m[m
+ 3 files changed, 54 insertions(+)[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?2004habhishek> pw[K[Kgit log --pretty=oneline
+[?2004l[?1h=[33mca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m changed th[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;31m[m[33m[m[1;31m[m[33m[me verison number[m
+[33m085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m removed unnecessary test code[m
+[33ma11bef06a3f659402fe7563abf99ad00de2209e6[m first commit[m
+[K[?1l>[?2004habhishek> git log --prety[Kty [K=formal[Kt:"%h - %an, %ar : %s"
+[?2004l[?1h=ca82a6d - Scott Chacon, 16 years ago : changed the verison number[m
+085bb3b - Scott Chacon, 16 years ago : removed unnecessary test code[m
+a11bef0 - Scott Chacon, 16 years ago : first commit[m
+[K[?1l>[?2004habhishek> git log --no-em[K[Kmerges
+[?2004l[?1h=[33mcommit ca82a6dff817ec66f44342007202690a93763949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Mon Mar 17 21:52:11 2008 -0700[m
+[m
+    changed the verison number[m
+[m
+[33mcommit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 16:40:33 2008 -0700[m
+[m
+    removed unnecessary test code[m
+[m
+[33mcommit a11bef06a3f659402fe7563abf99ad00de2209e6[m[m
+Author: Scott Chacon <schacon@gmail.com>[m
+Date:   Sat Mar 15 10:31:28 2008 -0700[m
+[m
+    first commit[m
+[K[?1l>[?2004habhishek> cd ..
+[?2004l[?2004habhishek> git stats[Kus
+[?2004lOn branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31msimplegit-progit/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004habhishek> nano .gitignore 
+[?2004l[?2004h[?1049h[22;0;0t[1;19r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[17;42H(B[0;7m[ Reading... ](B[m[17;41H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 6.2                               .gitignore                                         [1;95H(B[m[18d(B[0;7m^G(B[m Help[18;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[18;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location[19d(B[0;7m^X(B[m Exit[19;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[19;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line[2d*.[oa][?12l[?25h[?25l[?12l[?25h*[?25l[?12l[?25h.[?25l[?12l[?25h[[?25l[?12l[?25ho[?25l[?12l[?25ha[?25l[?12l[?25h][?25l[?12l[?25h[3d[?25l[1;57H(B[0;7m*[95G(B[m[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[2;7H[?12l[?25h[?25l[3d[?12l[?25h[?25l[?12l[?25h![?25l[?12l[?25hs[?25l[?12l[?25hi[?25l[?12l[?25hm[?25l[?12l[?25hp[?25l[?12l[?25hl[?25l[17d[K[?12l[?25h[3;7Hw[?25l[?12l[?25h[38;5;208m [39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25he[?25l[?12l[?25h[38;5;208m [39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[38;5;208m [39m(B[m[?25l[?12l[?25h[38;5;208m        [39m(B[m[?25l[?12l[?25h[3;9H[K[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[17d(B[0;7mSave modified buffer?                                                                           [18;1H Y(B[m Yes[K[19d(B[0;7m N(B[m No  [19;18H(B[0;7mC(B[m Cancel[K[17;23H[?12l[?25h[?25l[J[19d[?12l[?25h[19;1H[?1049l[23;0;0t[?1l>[?2004l[?2004habhishek> ex[Kcho "!simplegit-progit/" >> .gitignore
+[?2004lbash: !simplegit: event not found
+[?2004habhishek> nano .gitignore [C[C[C[C[C[C[C[C[C[C[6Pgit statusnano .gitignore [C[C[C[C[C[C[C[C[C[C[Knano .gitignore [C[C[C[C[C[C[C[C[C[C[Kecho[K[K[K[Knano .gitignore [C[C[C[C[C[C[C[C[C[C[Kexho[K[K[K[Kecho '!/simple[K[K[K[K[K[K[Ksimplegit-progit'>>.gitg[Kignore
+[?2004l[?2004habhishek> cat .gitignore 
+[?2004l*.[oa]
+
+!simplegit-progit
+[?2004habhishek> git status
+[?2004lOn branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .gitignore[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31msimplegit-progit/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004habhishek> git rm simplegit-progit/
+[?2004lfatal: pathspec 'simplegit-progit/' did not match any files
+[?2004habhishek> git rm -f[Kr simplegit-progit/
+[?2004lfatal: pathspec 'simplegit-progit/' did not match any files
+[?2004habhishek> git rm /simplegit-progit
+[?2004lfatal: /simplegit-progit: '/simplegit-progit' is outside repository at '/home/abhishek/Tiger Analytics/Downloads/TAMLEP/Module 1/my_project'
+[?2004habhishek> git rm /simplegit-progit./simplegit-progit
+[?2004lfatal: pathspec './simplegit-progit' did not match any files
+[?2004habhishek> rm simplegit-progit/
+[?2004lrm: cannot remove 'simplegit-progit/': Is a directory
+[?2004habhishek> rm -r simplegit-progit/
+[?2004lrm: remove write-protected regular file 'simplegit-progit/.git/objects/pack/pack-d6905687fc49b85678ca94942056d15d353040c1.idx'? y
+rm: remove write-protected regular file 'simplegit-progit/.git/objects/pack/pack-d6905687fc49b85678ca94942056d15d353040c1.pack'? y
+[?2004habhishek> ls
+[?2004lCONTRIBUTING.md  README
+[?2004habhishek> git status
+[?2004lOn branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .gitignore[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004habhishek> git commin[Kt --amend
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;19r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[17;42H(B[0;7m[ Reading... ](B[m[17;40H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m/home/abhishek/Tiger Analytics/Downloads/TAMLEP/Module 1/my_project/.git/COMMIT_EDITMSG         [1;96H(B[m[18d(B[0;7m^G(B[m Help[18;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[18;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location[19d(B[0;7m^X(B[m Exit[19;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[19;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line[2dinitial commit[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Wed Jun 26 18:42:34 2024 +0530[8d#[9d# On branch main[10d#[11d# Initial commit[12d#[13d# Changes to be committed:[14d#[38;5;208m       [36mnew file:   .gitignore[15d#[38;5;208m       [36mnew file:   CONTRIBUTING.md[16d#[38;5;208m       [36mnew file:   README[2d[39m(B[m[?12l[?25h[?25l[18;17H        (B[0;7mM-D(B[m DOS Format          (B[0;7mM-A(B[m Append[65G        (B[0;7mM-B(B[m Backup File[K[19;2H(B[0;7mC(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format    [49G(B[0;7mM-P(B[m Prepend             (B[0;7m^T(B[m Browse[K[17d(B[0;7mFile Name to Write:<OMMIT_EDITMSG                                                               [17;34H(B[m[?12l[?25h[?25l[41G[1K (B[0;7m[ Writing... ](B[m[K[1;96H[17;40H(B[0;7m[ Wrote 19 lines ](B[m[18;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut    [65G(B[0;7m^T(B[m Execute      (B[0;7m^C(B[m Location[19;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste        (B[0;7m^J(B[m Justify      (B[0;7m^/(B[m Go To Line[?12l[?25h[2d[?25l[17d[J[19d[?12l[?25h[19;1H[?1049l[23;0;0t[?1l>[?2004l[K[main 6a74521] initial commit
+ Date: Wed Jun 26 18:42:34 2024 +0530
+ 3 files changed, 6 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 CONTRIBUTING.md
+ create mode 100644 README
+[?2004habhishek> git status
+[?2004lOn branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .gitignore[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004habhishek> git restoe[Kre .gitignore 
+[?2004l[?2004habhishek> git diff
+[?2004l[?1h=[K[?1l>[?2004habhishek> gi [Kt t[Kstatus
+[?2004lOn branch main
+nothing to commit, working tree clean
+[?2004habhishek> git remote
+[?2004l[?2004habhishek> cd [K[K[Kls
+[?2004lCONTRIBUTING.md  README
+[?2004habhishek> [Kabhishek> git tag
+[?2004l[?1h=[K[?1l>[?2004habhishek> ==[K[K=[K
+Display all 2561 possibilities? (y or n)
+abhishek> ls
+[?2004lCONTRIBUTING.md  README
+[?2004habhishek> git tag -a v1.0 -m "First version"
+[?2004l[?2004habhishek> git tg[Kag
+[?2004l[?1h=v1.0[m
+[K[?1l>[?2004habhishek> git show
+[?2004l[?1h=[33mcommit 6a74521c51b1d36ec1a95754428e7a2330292039[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;33mtag: v1.0[m[33m)[m[m
+Author: Abhishek Ranjan <abhishek.ranjan@tigeranalytics.com>[m
+Date:   Wed Jun 26 18:42:34 2024 +0530[m
+[m
+    initial commit[m
+[m
+[1mdiff --git a/.gitignore b/.gitignore[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..d3bf727[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/.gitignore[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32m*.[oa][m[m
+[32m+[m[m
+[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..692f350[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32mtest: modifying the file after tracking but before staging[m[m
+[32m+[m[32mfurther editing the file without staging to test git diff[m[m
+:[K[K[1mdiff --git a/README b/README[m[m
+:[K[K[1mnew file mode 100644[m[m
+:[K[K[1mindex 0000000..c12629d[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32mMy Project[m[m
+[32m+[m[32mtesting tracking before staging[m[m
+[7m(END)[27m[K[K[?1l>[?2004habhishek> git show v1.0
+[?2004l[?1h=[33mtag v1.0[m[m
+Tagger: Abhishek Ranjan <abhishek.ranjan@tigeranalytics.com>[m
+Date:   Wed Jun 26 22:25:49 2024 +0530[m
+[m
+First version[m
+[m
+[33mcommit 6a74521c51b1d36ec1a95754428e7a2330292039[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;33mtag: v1.0[m[33m)[m[m
+Author: Abhishek Ranjan <abhishek.ranjan@tigeranalytics.com>[m
+Date:   Wed Jun 26 18:42:34 2024 +0530[m
+[m
+    initial commit[m
+[m
+[1mdiff --git a/.gitignore b/.gitignore[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..d3bf727[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/.gitignore[m[m
+[36m@@ -0,0 +1,2 @@[m[m
+[32m+[m[32m*.[oa][m[m
+[32m+[m[m
+[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+:[K[K[1mindex 0000000..692f350[m[m
+:[K[K[1m--- /dev/null[m[m
+:[K[K[1m+++ b/CONTRIBUTING.md[m[m
+:[K[K[36m@@ -0,0 +1,2 @@[m[m
+:[K[K[32m+[m[32mtest: modifying the file after tracking but before staging[m[m
+:[K[K[32m+[m[32mfurther editing the file without staging to test git diff[m[m
+:[K[K[1mdiff --git a/README b/README[m[m
+:[K[K[1mnew file mode 100644[m[m
+:[K[K[1mindex 0000000..c12629d[m[m
+:[K[K[1m--- /dev/null[m[m
+:[K[K[1m+++ b/README[m[m
+:[K[K[36m@@ -0,0 +1,2 @@[m[m
+:[K[K[32m+[m[32mMy Project[m[m
+:[K[K[32m+[m[32mtesting tracking before staging[m[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?2004habhishek> git brac[Knch testing
+[?2004l[?2004habhishek> git log -o[K-oneline --decorae[Kte
+[?2004l[?1h=[33m6a74521[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;33mtag: v1.0[m[33m, [m[1;32mtesting[m[33m)[m initial commit[m
+[K[?1l>[?2004habhishek> git checkout e[Ktesting
+[?2004lSwitched to branch 'testing'
+[?2004habhishek> vib[K m[K[Km test.rb
+[?2004lCommand 'vim' not found, but can be installed with:
+sudo apt install vim         # version 2:8.2.3995-1ubuntu2.13, or
+sudo apt install vim-tiny    # version 2:8.2.3995-1ubuntu2.13
+sudo apt install neovim      # version 0.6.1-3
+sudo apt install vim-athena  # version 2:8.2.3995-1ubuntu2.13
+sudo apt install vim-gtk3    # version 2:8.2.3995-1ubuntu2.13
+sudo apt install vim-nox     # version 2:8.2.3995-1ubuntu2.13
+[?2004habhishek> sudo apt install vim
+[?2004l[sudo] password for abhishek: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  vim-runtime
+Suggested packages:
+  ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  vim vim-runtime
+0 upgraded, 2 newly installed, 0 to remove and 6 not upgraded.
+Need to get 8,561 kB of archives.
+After this operation, 37.6 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim-runtime all 2:8.2.3995-1ubuntu2.17 [6,827 kB]
+[33m0% [1 vim-runtime 3,990 B/6,827 kB 0%][0m[33m0% [1 vim-runtime 42.5 kB/6,827 kB 1%][0m[33m                                      1% [1 vim-runtime 155 kB/6,827 kB 2%][0m[33m5% [1 vim-runtime 561 kB/6,827 kB 8%][0m[33m19% [1 vim-runtime 2,077 kB/6,827 kB 30%][0m[33m47% [1 vim-runtime 4,996 kB/6,827 kB 73%][0m[33m                                         74% [Working][0m             Get:2 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 vim amd64 2:8.2.3995-1ubuntu2.17 [1,734 kB]
+[33m74% [2 vim 1,134 B/1,734 kB 0%][0m[33m                               100% [Working][0m              Fetched 8,561 kB in 4s (2,147 kB/s)
+
+7[0;22r8[1ASelecting previously unselected package vim-runtime.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 325046 files and directories currently installed.)
+Preparing to unpack .../vim-runtime_2%3a8.2.3995-1ubuntu2.17_all.deb ...
+7[23;0f[42m[30mProgress: [  0%][49m[39m [...............................................................................................] 87[23;0f[42m[30mProgress: [ 11%][49m[39m [##########.....................................................................................] 8Adding 'diversion of /usr/share/vim/vim82/doc/help.txt to /usr/share/vim/vim82/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim82/doc/tags to /usr/share/vim/vim82/doc/tags.vim-tiny by vim-runtime'
+Unpacking vim-runtime (2:8.2.3995-1ubuntu2.17) ...
+7[23;0f[42m[30mProgress: [ 22%][49m[39m [#####################..........................................................................] 8Selecting previously unselected package vim.
+Preparing to unpack .../vim_2%3a8.2.3995-1ubuntu2.17_amd64.deb ...
+7[23;0f[42m[30mProgress: [ 33%][49m[39m [###############################................................................................] 8Unpacking vim (2:8.2.3995-1ubuntu2.17) ...
+7[23;0f[42m[30mProgress: [ 44%][49m[39m [##########################################.....................................................] 8Setting up vim-runtime (2:8.2.3995-1ubuntu2.17) ...
+7[23;0f[42m[30mProgress: [ 56%][49m[39m [####################################################...........................................] 87[23;0f[42m[30mProgress: [ 67%][49m[39m [###############################################################................................] 8Setting up vim (2:8.2.3995-1ubuntu2.17) ...
+7[23;0f[42m[30mProgress: [ 78%][49m[39m [#########################################################################......................] 8update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+7[23;0f[42m[30mProgress: [ 89%][49m[39m [####################################################################################...........] 8Processing triggers for man-db (2.10.2-1) ...
+
+7[0;23r8[1A[J[?2004habhishek> vim test.rb
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;23r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[23;1H"test.rb" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                    [3;1H~                                                                                                                    [4;1H~                                                                                                                    [5;1H~                                                                                                                    [6;1H~                                                                                                                    [7;1H~                                                                                                                    [8;1H~                                                                                                                    [9;1H~                                                                                                                    [10;1H~                                                                                                                    [11;1H~                                                                                                                    [12;1H~                                                                                                                    [13;1H~                                                                                                                    [14;1H~                                                                                                                    [15;1H~                                                                                                                    [16;1H~                                                                                                                    [17;1H~                                                                                                                    [18;1H~                                                                                                                    [19;1H~                                                                                                                    [20;1H~                                                                                                                    [21;1H~                                                                                                                    [22;1H~                                                                                                                    [m[23;100H0,0-1[9CAll[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[23;90H0[1;1H[23;91H3[1;1H[23;92H0[1;1H[23;93H/[1;1H[23;94H0[1;1H[23;95Ha[1;1H[23;96H0[1;1H[23;97Ha[1;1H[23;98H/[1;1H[23;99H2[1;1H[23;90H          [1;1H[27m[23m[29m[m[H[2J[2;1H[94m~                                                                                                                    [3;1H~                                                                                                                    [4;1H~                                                                                                                    [5;1H~                                                                                                                    [6;1H~                                                                                                                    [7;1H~                                                                                                                    [8;1H~                                                                                                                    [9;1H~                                                                                                                    [10;1H~                                                                                                                    [11;1H~                                                                                                                    [12;1H~                                                                                                                    [13;1H~                                                                                                                    [14;1H~                                                                                                                    [15;1H~                                                                                                                    [16;1H~                                                                                                                    [17;1H~                                                                                                                    [18;1H~                                                                                                                    [19;1H~                                                                                                                    [20;1H~                                                                                                                    [21;1H~                                                                                                                    [22;1H~                                                                                                                    [m[23;100H0,0-1[9CAll"test.rb" [New][1;1H[?25h[?25l[23;90H^M[1;1H[23;90H  [1;1H[?25h[?25l[23;90H^M[1;1H[23;90H  [1;1H[?25h[?25l[23;90Hd[1;1H[?25h[?25l[23;91Hf[1;1H[?25h[?25l[23;92Hs[1;1H[23;90H   [1;1H[?25h[?25l[23;90Hd[1;1H[?25h[?25l[23;91Hf[1;1H[?25h[?25l[23;92Hd[1;1H[23;90H   [1;1H[?25h[?25l[23;90Hf[1;1H[?25h[?25l[23;91Hd[1;1H[23;90H  [1;1H[?25h[?25l[23;90Hf[1;1H[?25h[?25l[23;91Hf[1;1H[23;90H  [1;1H[?25h[?25l[23;90Hf[1;1H[?25h[?25l[23;91Hf[1;1H[23;90H  [1;1H[?25h[?25l[23;90H^[[1;1H[23;90H  [1;1H[23;90H^[[1;1H[23;90H  [1;1H[?25h[?25l[23;90H^[[1;1H[23;90H  [1;1H[23;90H^[[1;1H[23;90H  [1;1H[?25h[?25l[23;90Hq[1;1H[?25h[?25l[23;91H^M[1;1H[23;90H   [1;1H[?25h[?25l[23;90He[1;1H[23;90H [1;1H[?25h[?25l[23;90Hx[1;1H[23;90H [1;1H[23;90Hdl[1;1H[23;90H  [1;1H[?25h[?25l[23;90Hi[1;1H[23;90H [1;1H[23;1H[1m-- INSERT --[m[23;13H[K[23;100H0,1[11CAll[1;1H[?25h[?25le[23;100H1,2[1;2H[?25h[?25lx[23;102H3[1;3H[?25h[?25li[23;102H4[1;4H[?25h[?25l[1;3H[K[23;102H3[1;3H[?25h[?25l[1;2H[K[23;102H2[1;2H[?25h[?25l[1;1H[K[23;102H1[1;1H[?25h[?25lx[23;102H2[1;2H[?25h[?25l[1;1H[K[23;102H1[1;1H[?25h[23;1H[K[1;1H[?25l[23;90H^[[1;1H[23;90H  [1;1H[23;100H1,0-1[9CAll[1;1H[?25h[?25l[23;90Hx[1;1H[23;90H [1;1H[23;90Hdl[1;1H[23;90H  [1;1H[?25h[?25l[23;90Hx[1;1H[23;90H [1;1H[23;90Hdl[1;1H[23;90H  [1;1H[?25h[?25l[23;90Hx[1;1H[23;90H [1;1H[23;90Hdl[1;1H[23;90H  [1;1H[?25h[?25l[23;90Hx[1;1H[23;90H [1;1H[23;90Hdl[1;1H[23;90H  [1;1H[?25h[?25l[23;90H^[[1;1H[23;90H  [1;1H[23;90H^[[1;1H[23;90H  [1;1H[?25h[?25l[23;90H^[[1;1H[23;90H  [1;1H[23;90H^[[1;1H[23;90H  [1;1H[?25h[?25l[23;90H^[[1;1H[23;90H  [1;1H[23;90H^[[1;1H[23;90H  [1;1H[?25h[?25l[23;90H^[[1;1H[23;90H  [1;1H[23;90H^[[1;1H[23;90H  [1;1H[?25h[?25l[23;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[23;100H[K[23;100H1,0-1[9CAll[1;1H[?25h[?25l[23;90H:[1;1H[23;1H[K[23;1H:[?25hq1[?25l[23;3H[K[23;3H[?25ha![?25l[?2004l[>4;m[23;2t[23;1t[23;1H[K[23;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004habhishek> ls
+[?2004lCONTRIBUTING.md  README
+[?2004habhishek> sudo apt remove vim
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following package was automatically installed and is no longer required:
+  vim-runtime
+Use 'sudo apt autoremove' to remove it.
+The following packages will be REMOVED:
+  vim
+0 upgraded, 0 newly installed, 1 to remove and 6 not upgraded.
+After this operation, 4,025 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+7[0;22r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 326987 files and directories currently installed.)
+Removing vim (2:8.2.3995-1ubuntu2.17) ...
+7[23;0f[42m[30mProgress: [  0%][49m[39m [...............................................................................................] 87[23;0f[42m[30mProgress: [ 33%][49m[39m [###############################................................................................] 8update-alternatives: using /usr/bin/vim.tiny to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.tiny to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.tiny to provide /usr/bin/ex (ex) in auto mode
+update-alternatives: using /usr/bin/vim.tiny to provide /usr/bin/rview (rview) in auto mode
+7[23;0f[42m[30mProgress: [ 67%][49m[39m [###############################################################................................] 8
+7[0;23r8[1A[J[?2004habhishek> sur[Kdo apt autoremove
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following packages will be REMOVED:
+  vim-runtime
+0 upgraded, 0 newly installed, 1 to remove and 6 not upgraded.
+After this operation, 33.6 MB disk space will be freed.
+Do you want to continue? [Y/n] y
+
+7[0;22r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 326978 files and directories currently installed.)
+Removing vim-runtime (2:8.2.3995-1ubuntu2.17) ...
+7[23;0f[42m[30mProgress: [  0%][49m[39m [...............................................................................................] 87[23;0f[42m[30mProgress: [ 33%][49m[39m [###############################................................................................] 87[23;0f[42m[30mProgress: [ 67%][49m[39m [###############################################################................................] 8Removing 'diversion of /usr/share/vim/vim82/doc/help.txt to /usr/share/vim/vim82/doc/help.txt.vim-tiny by vim-runtime'
+Removing 'diversion of /usr/share/vim/vim82/doc/tags to /usr/share/vim/vim82/doc/tags.vim-tiny by vim-runtime'
+Processing triggers for man-db (2.10.2-1) ...
+
+7[0;23r8[1A[J[?2004habhishek> touch test.rb
+[?2004l[?2004habhishek> git commit -a -m 'make a change;[K'
+[?2004lOn branch testing
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest.rb[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004habhishek> git add re[K[Ktest.rb 
+[?2004l[?2004habhishek> git [K[K[K[Kgit add test.rb commit -a -m 'make a change'
+[?2004l[testing 2a85e62] make a change
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.rb
+[?2004habhishek> git checkout master
+[?2004lerror: pathspec 'master' did not match any file(s) known to git
+[?2004habhishek> git checkout main
+[?2004lSwitched to branch 'main'
+[?2004habhishek> touch test.rb
+[?2004l[?2004habhishek> git commit [K[K[K[K[K[K[Kadd touch[K[K[K[K[K[Kte[K[K test.rb
+[?2004l[?2004habhishek> git commit -m 'Make ou[Kther changes;[K'
+[?2004l[main db1df1b] Make other changes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.rb
+[?2004habhishek> git log --oneline --decorate =[K--graph --a[Kall
+[?2004l[?1h=* [33mdb1df1b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Make other changes[m
+[31m|[m * [33m2a85e62[m[33m ([m[1;32mtesting[m[33m)[m make a change[m
+[31m|[m[31m/[m  [m
+* [33m6a74521[m[33m ([m[1;33mtag: v1.0[m[33m)[m initial commit[m
+[K[?1l>[?2004habhishek> git wi[K[Kswitch testing
+[?2004lSwitched to branch 'testing'
+[?2004habhishek> git switch -
+[?2004lSwitched to branch 'main'
+[?2004habhishek> git branch
+[?2004l[?1h=* [32mmain[m[m
+  testing[m[m
+[K[?1l>[?2004habhishek> git branch -v
+[?2004l[?1h=* [32mmain   [m db1df1b Make other changes[m
+  testing[m 2a85e62 make a change[m
+[K[?1l>[?2004habhishek> exit
+[?2004lexit
+
+Script done on 2024-06-27 00:22:49+05:30 [COMMAND_EXIT_CODE="0"]
